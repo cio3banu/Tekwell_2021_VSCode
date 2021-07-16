@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="POST">
+        First name <input type="text" name="first_name" placeholder="For example: John" title="Introduceti va rog numele" required> <br>
+        Last name <input type="text" name="last_name"> <br>
+        E-mail <input type="email" name="email"> <br>
+        Password <input type="password" name="passwprd"> <br>
+        Gen 
+        <input type="radio" value="M" name="gender"> M
+        <input type="radio" value="F" name="gender"> F 
+        <br>
+        Studii: <br>
+        <input type="checkbox" name="graduate[]" value="medii"> Medii <br> 
+        <input type="checkbox" name="graduate[]" value="licenta" checked> Licenta <br> 
+        <input type="checkbox" name="graduate[]" value="master"> Master <br> 
+        <input type="checkbox" name="graduate[]" value="doctorale"> Doctorale <br> 
+
+        Oras: <br>
+        <select name="city">
+            <option value="Chisinau">Chisinau</option>
+            <option value="Balti">Balti</option>
+            <option value="Orhei">Orhei</option>
+            <option value="Cahul">Cahul</option>
+            <option value="Comrat">Comrat</option>
+        </select>
+        <br>
+        Data nasterii:
+        <input type="date" name="birthday">
+        <br>
+        Disponibil pentru un sunet:
+        <input type="time" name="call_time"/>
+        <br>
+        Numar de telefon
+        <input type="tel" name="phone"> <br>
+
+        Biografie:
+        <textarea name="biography" cols="30" rows="10"></textarea>
+        <br>
+        Poza buletin:
+        <input type="file" name="card_id">
+        <br>
+        Salariu dorit:
+        <input type="number" name="salary" value="100000" readonly>
+        <br>
+        Virsta:
+        <input type="range" name="age" min="18" max="99" value="30" disabled>
+        <br>
+        Culoarea parului:
+        <input type="color" name="hair_color">
+        <!--
+            comentarii in HTML
+        -->
+
+        <br>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>
