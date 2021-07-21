@@ -22,10 +22,18 @@ ul li ul li{
     padding: 3px;
     border: 1px solid lightgray;
     margin-left: 40px;
+    
 }
 
 ul li ul li a{
     color: darkgreen;
     text-decoration: none;
 
+}
+/*AC*/
+ul li ul li:hover{
+    background-color: cornflowerblue;
+    color: cornsilk;
+    font-size: 14px;
+    
 }
