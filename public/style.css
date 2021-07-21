@@ -2,11 +2,12 @@ ul{
     background: gray;
     list-style: none;
     padding: 0;
+    
    
 }
 
 ul li{
-    padding-left: 20px;
+    padding-left: 20px 10px;
 }
 
 ul span{
@@ -24,15 +25,16 @@ ul li ul li{
     border: 1px solid lightgray;
     margin-left: 40px;
     
-}
 
 ul li ul li a{
     color: darkgreen;
     text-decoration: none;
+    display: block;
 
 }
 /*AC*/
 ul li ul li:hover{
+    
     background-color: cornflowerblue;
     color: cornsilk;
     font-size: 14px;
