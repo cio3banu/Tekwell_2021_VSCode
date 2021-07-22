@@ -1,0 +1,62 @@
+body{
+    background-image: url(img/moldova_map.png);
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.square{
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    margin: 5px;
+    border: 2px solid red;
+}
+
+.backgroundColor{
+    background-color: lime;
+}
+
+.backgroundImage{
+    background-image:url(img/smile.jpg);
+}
+
+.backgroundImageNoRepeat{
+    background-image:url(img/smile.jpg);
+    background-repeat: no-repeat;
+}
+
+.backgroundImageRepeatX{
+    background-image:url(img/smile.jpg);
+    background-repeat: repeat-x;
+}
+
+.backgroundImageRepeatY{
+    background-image:url(img/smile.jpg);
+    background-repeat: repeat-y;
+}
+
+
+.backgroundSizeAuto{
+    background-image:url(img/stefan.jpeg);
+    background-size: auto;
+}
+
+.backgroundSizeCover{
+    background-image:url(img/stefan.jpeg);
+    background-size: cover;
+}
+
+
+.backgroundSizeContain{
+    background-image:url(img/stefan.jpeg);
+    background-size: contain;
+}
+
+
+

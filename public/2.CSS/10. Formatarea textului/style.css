@@ -1,0 +1,20 @@
+.borderedText{
+    border: 1px solid rgb(38, 0, 255);
+}
+
+.fontSize{
+    font-size: 44px;
+}
+
+.fontFamily{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.fontColor{
+    color: blue;
+}
+
+.fontStyle{
+    font-style: italic;
+}
+

@@ -1,0 +1,26 @@
+.square{
+    border: 1px solid lightgray;
+    background-color: indigo;
+}
+
+.dimension-inches{
+    width: 2in;
+    height: 1in;
+}
+
+.dimension-cm{
+    width: 2cm;
+    height: 1cm;
+}
+
+
+.dimension-px{
+    width: 10px;
+    height: 10px;
+}
+
+.dimension-percent{
+    width: 40%;
+    height: 30%;
+}
+

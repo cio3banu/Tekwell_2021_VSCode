@@ -1,0 +1,25 @@
+.square{
+    width: 150px;
+    height: 150px;
+    border: 1px solid lightgray;
+}
+
+.color-name{
+    background-color: indigo;
+}
+
+.color-rgb{
+    background-color: rgb(100, 0, 255);
+}
+
+.color-rgba{
+    background-color: rgba(100, 0, 255, 0.5);
+}
+
+.color-hex{
+    background-color: #ffff00;
+}
+
+.color-hex-alpha{
+    background-color: #00ff805d;
+}

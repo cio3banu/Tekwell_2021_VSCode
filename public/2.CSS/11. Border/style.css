@@ -1,0 +1,58 @@
+.square{
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    margin: 5px;
+    background-color: lightyellow;
+    border-width: 5px;
+}
+
+.borderSolid{
+    border-style: solid;
+}
+
+.borderDotted{
+    border-style: dotted;
+}
+
+.borderDashed{
+    border-style: dashed;
+}
+
+.borderDouble{
+    border-style: double;
+}
+
+.borderInset{
+    border-style: inset;
+}
+
+.borderOutset{
+    border-style: outset;
+}
+
+.borderGroove{
+    border-style: groove;
+}
+
+.borderRidge{
+    border-style: ridge;
+}
+
+
+.borderTopStyle{
+    border-top-style: solid;
+}
+
+.borderPairWidth{
+    border-width: 10px 20px;
+    border-color: red;
+    border-style: solid;
+}
+
+
+.borderSides{
+    border-width: 5px 10px 15px 20px;
+    border-color: red;
+    border-style: solid;
+}
