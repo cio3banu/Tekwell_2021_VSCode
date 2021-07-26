@@ -1,0 +1,41 @@
+body{
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "nav nav nav"
+    "left section right"
+    "footer footer footer"
+    ;
+    grid-template-columns: 200px auto 200px;
+    grid-template-rows: 100px 36px auto 100px;
+}
+
+header{
+    grid-area: header;
+    background-color: red;
+}
+
+nav{
+    grid-area: nav;
+    background-color: blue;
+}
+
+aside.left{
+    grid-area: left;
+    background-color: chartreuse;
+}
+
+aside.right{
+    grid-area: right;
+    background-color: cornflowerblue;
+}
+
+section{
+    grid-area: section;
+    background-color: darkgray;
+}
+
+footer{
+    grid-area: footer;
+    background-color: darkorange;
+}
