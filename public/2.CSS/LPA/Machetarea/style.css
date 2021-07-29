@@ -1,0 +1,121 @@
+body{
+    width: 1000px;
+    font-family: Nunito;
+    margin: 0 auto;
+    position: relative;
+}
+
+#bodyBg{
+    background-color: #F9BDBD;
+    width: 370px;
+    height: 800px;
+    position: absolute;
+    right: 0;
+    z-index: -1;
+    border-bottom-left-radius: 120px;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    margin-top: 2em;
+}
+
+header #logo{
+    display: grid;
+    width: 192px;
+    grid-template-columns: 1fr 5fr;
+}
+
+header #logo div{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    /* identical to box height */
+
+    letter-spacing: 0.25em;
+
+    color: #3E3F43;
+
+}
+
+
+header nav #navigation{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr );
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+header nav #navigation li{
+    text-align: center;
+    padding: 5px;
+}
+
+header nav #navigation li.selected a{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #DAA520;
+    text-decoration: none;
+}
+
+header nav #navigation li a{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #222;
+    text-decoration: none;
+}
+
+header nav #navigation li.button{
+    border: 1px solid #222;
+    border-radius: 5px;
+    
+}
+
+section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+body > section > article > h1{
+    font-size: 36px;
+    font-weight: lighter;
+}
+
+body > section > article > div{
+    font-size: 72px;
+    font-weight: bolder;
+}
+
+body > section > article > button{
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #DAA520;
+    border: none;
+    border-radius: 5px;
+    padding: 1em;
+}
+
+body > section > img#flower{
+    position: absolute;
+    width: 300px;
+    z-index: -1;
+    right: 250px;
+    top: 300px;
+    opacity: 0.5;
+}
+
+/* test github bot 2*/
