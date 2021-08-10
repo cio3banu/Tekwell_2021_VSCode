@@ -1,0 +1,61 @@
+.square{
+    width: 100%;
+    border: 1px solid red;
+    background-color: blue;
+}
+
+
+.row{
+    width: 100%;
+    font-size: 0;
+}
+
+.row .cell{
+    width: 25%;
+    display: inline-block;
+    font-size: 14px;
+    outline: 1px solid cyan;
+}
+
+.row .cell img{
+    width: 100%;
+}
+
+.row .green{
+    background-color: green;
+}
+
+.row .yellow{
+    background-color: yellow;
+}
+
+.row .red{
+    background-color: red;
+}
+
+
+.row .violet{
+    background-color: violet;
+}
+
+
+@media screen and (max-width: 700px) {
+    .row .cell{
+        width: 50%;
+    }
+    .square{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .row .cell{
+        width: 100%;
+    }    
+}
+
+@media print{
+    .square{
+        display: none;
+    }
+}

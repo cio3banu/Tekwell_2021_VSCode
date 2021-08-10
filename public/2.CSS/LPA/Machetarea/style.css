@@ -117,5 +117,75 @@ body > section > img#flower{
     top: 300px;
     opacity: 0.5;
 }
+/*page about us
+.aboutus{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}*/
+/* Who we are */
 
-/* test github bot 2*/
+.whoweare{
+font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 49px;
+color: #3E3F43;
+}
+
+
+
+/* ABOUT US */
+.aboutus{
+position: absolute;
+width: 379px;
+height: 98px;
+left: 673px;
+top: 0px;
+font-family: Nunito;
+font-style: normal;
+font-weight: 800;
+font-size: 72px;
+line-height: 98px;
+text-align: right;
+color: rgba(34, 34, 34, 0.1);
+}
+header #logo_icon{
+    display: grid;
+    width: 250px;
+    grid-template-columns: 1fr 6fr;
+    
+
+}
+header nav#about{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr );
+    margin: 0;
+    padding: 0;
+    
+}
+
+    /* Line 1 */
+
+.line{
+position: absolute;
+width: 316px;
+height: 0px;
+left: 357px;
+top: 49px;
+border: 1px solid #000000;
+}
+
+/* Rectangle 5 */
+#bodyBgP2{
+   position: absolute;
+width: 278px;
+height: 388px;
+left: 100px;
+top: 138px;
+background-color: #F7DEA6; 
+z-index: -1;
+border-bottom-left-radius: 120px;
+border-top-right-radius: 120px;
+}
+
