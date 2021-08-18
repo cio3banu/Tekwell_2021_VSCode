@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="loader">
+        <img src="img/loader.gif" alt="">
+    </div>
+    
+    <div id="pageList">
+        Employees list <button onclick="showCreatePage()">Create</button>
+
+        <table border="1" id="table" style="display: none;">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <td></td>
+                </tr>
+            </thead>
+            <tbody id="employees">
+                
+            </tbody>
+        </table>
+    </div>
+
+    <div id="pageDetails" style="display: none;">
+        <button onclick="showListPage()">Back</button> <br>
+        ID: <span id="employeeId"></span> <br>
+        Name: <span id="employeeName"></span> <br>
+        Age: <span id="employeeAge"></span> <br>
+        Biography: <span id="employeeBiography"></span> <br>
+        
+    </div>
+    
+
+    <div id="pageCreate" style="display: none;">
+        <button onclick="showListPage()">Back</button> <br>
+        <input type="number" id="employeeIdInput" placeholder="ID"> <br>
+        <input type="text" id="employeeNameInput" placeholder="Input name"> <br>
+        <input type="number" id="employeeAgeInput" placeholder="Age"> <br>
+        <textarea id="employeeBiographyInput" cols="30" rows="10"></textarea>
+        <br>
+        <button onclick="createEmployee()">Create</button>
+    </div>
+
+    <div id="pageUpdate" style="display: none;">
+        <button onclick="showListPage()">Back</button> <br>
+        <input type="number" id="employeeIdInputUpdate" placeholder="ID"> <br>
+        <input type="text" id="employeeNameInputUpdate" placeholder="Input name"> <br>
+        <input type="number" id="employeeAgeInputUpdate" placeholder="Age"> <br>
+        <textarea id="employeeBiographyInputUpdate" cols="30" rows="10"></textarea>
+        <br>
+        <button onclick="updateEmployee()">Update</button>
+    </div>
+
+    
+
+    <script src="app.js"></script>
+</body>
+</html>
