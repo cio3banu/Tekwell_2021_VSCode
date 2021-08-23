@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <input type="number" v-model="number">
+        <div v-if="number > 0">Numarul este pozitiv</div>
+        <div v-else-if="number < 0">Numarul este negativ</div>
+        <div v-else>Numarul este ZERO</div>
+
+        <hr>
+
+        <ul>
+            <li 
+                v-for="(person, personIndex) of persons"
+                >{{ person }} 
+                <button @click="deletePerson(personIndex)">x</button>
+            </li>
+        </ul>
+
+        <input type="text" v-model="newPerson"> 
+        <button @click="createPerson()">Create</button>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+    <script src="app.js"></script>
+</body>
+</html>

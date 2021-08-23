@@ -1,0 +1,16 @@
+.alert{
+    font-size: 23px;
+    font-style: italic;
+}
+
+.alert-danger{
+    color: #ffffff;
+    background-color: #fc0015;
+    border-color: #f5c2c7;
+}
+
+.alert-danger{
+    color: #ffffff;
+    background-color: #107737;
+    border-color: #f5c2c7;
+}

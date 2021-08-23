@@ -1,0 +1,12 @@
+.row{
+    height: 10em;
+    outline: 1px solid red;
+}
+
+.row .col, .row .col-4, .row .col-2, .row .col-3{
+    outline: 1px solid green;
+}
+
+.row .col-4, .row .col-2, .row .col-3{
+    background: rgba(0, 0, 0, 0.8);
+}
